@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
-#include <fstream>
 using namespace std;
-
-//ofstream file;
 
 const int maxn = 100 + 10;
 int n, m;
@@ -38,7 +35,6 @@ bool topo(){
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0);
-    //file.open("output.txt");
     while(cin >> n >> m, n != 0 || m != 0){
         memset(graph, 0, sizeof(graph));
         for(int i = 0; i < m; i++){
